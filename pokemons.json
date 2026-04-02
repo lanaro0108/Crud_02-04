@@ -1,0 +1,24 @@
+{
+  "comuns": [
+    {
+      "nome": "Piplup",
+      "hp": 40
+    },
+    {
+      "nome": "Charmander",
+      "hp": 50
+    }
+  ],
+  "raros": [
+    {
+      "nome": "Kangaskhan",
+      "hp": 64
+    }
+  ],
+  "lendarios": [
+    {
+      "nome": "Mewtwo",
+      "hp": 106
+    }
+  ]
+}
