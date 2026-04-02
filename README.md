@@ -1,4 +1,3 @@
-# Crud_02-04
 # 🎮 Loja Pokémon
 
 Um sistema de gerenciamento de inventário Pokémon desenvolvido em **Python**. O projeto permite realizar operações de CRUD (Create, Read, Update, Delete) diretamente no terminal, com persistência de dados em formato **JSON**.
