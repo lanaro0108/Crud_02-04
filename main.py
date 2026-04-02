@@ -1,6 +1,7 @@
 import json
 import os
 
+# Menu Principal
 def menu():
     print("\n----- Loja Pokémon -----")
     print("1. Adicionar Pokémon")
@@ -9,15 +10,17 @@ def menu():
     print("4. Excluir Pokémon")
     print("0. Sair")
 
-
+# Pra escolher a raridade do pokemóm
 def escolher_grupo():
     print("\nCategoria do Pokémon:")
     print("1. Comum")
     print("2. Raro")
     print("3. Lendário")
 
+    # Escolha do grupo
     opcao = input("Escolha: ")
 
+    # Com base na escolha retorna um dos grupos
     if opcao == "1":
         return "comuns"
     elif opcao == "2":
@@ -27,7 +30,7 @@ def escolher_grupo():
     else:
         print("Opção inválida.")
         return escolher_grupo()
-
+# Lê os dados do JSON
 def ler_dados():
     if not os.path.exists("pokemons.json"):
         return {
